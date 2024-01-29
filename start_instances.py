@@ -3,6 +3,7 @@ import boto3
 import sys
 import time
 
+
 def start_instances(stopped_instances: list):
     ''' Function accepts a list of stopped instances and runs a 
         start instance operation on each instance in the list

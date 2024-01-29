@@ -1,6 +1,7 @@
 import boto3
 import sys
 
+
 def ec2_list_instance(instance_state:list=None):
     '''
     Function returns a list of instance_id's for any state passed as list argument.
