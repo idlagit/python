@@ -33,5 +33,9 @@ def start_instances(stopped_instances: list):
             print(f'\n{instance["InstanceId"]} is already running')
 
 
-# stopped_ec2 = ec2_list_instance()
-# start_instances(stopped_ec2)
+# declare list variable for instances to be started
+stopped_ec2 = []
+
+
+# Call the start function
+start_instances(stopped_ec2)
